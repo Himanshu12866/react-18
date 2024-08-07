@@ -1,9 +1,12 @@
 .homepage {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.777), rgba(0, 0, 0, 0.343)), url("../../public/images/netflixback.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.777), rgba(0, 0, 0, 0.343)), url("../../public/images/back.jpg");
   background-position: center;
   background-size: cover;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 120vh;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=homepage.css.map */

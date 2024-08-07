@@ -1,12 +1,19 @@
-.headerBox{
-   display: flex;
-   justify-content: space-between;
-   width: 100%;
-   
-   .img-box{
-    width: 300px;
-    background-color: red;
-    height: 30px;
-   }
+.headerBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+
+    .img-box {
+        width: 50px;
+        height: 50px;
+
+        img {
+            width: 100%;
+        }
+
+
+
+    }
 
 }
