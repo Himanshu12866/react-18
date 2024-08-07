@@ -11,7 +11,7 @@
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   width: 350px;
-  border: none;
+  border: 1px solid grey;
   border-radius: 4px;
   color: white;
 }

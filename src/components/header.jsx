@@ -9,10 +9,10 @@ export default function Header() {
             <div className="dropdownBox">
                 <div className="dropbox">
                     <select className="form-select">
-                        <option><i className="fa fa-facebook"></i>English</option>
-                        <option>Hindi</option>
+                        <option> Hindi</option>
+                        <option>English</option>
                     </select>
-               <button type="button" className="btn ">Sign In</button>
+               <button type="button" className="btn "> Sign In</button>
                 </div>
             </div>
         </div>

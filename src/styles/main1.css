@@ -1,6 +1,21 @@
 .main-box {
-  background-color: red;
-  height: 50px;
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box .row {
+  width: 100%;
+}
+.main-box .row .col-lg-6 {
+  width: 50%;
+  text-align: center;
+  height: 500px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main1.css.map */
