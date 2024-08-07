@@ -1,0 +1,33 @@
+.login-box h5 {
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.login-box .input-box {
+  margin-top: 20px;
+}
+.login-box .input-box input {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  width: 350px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+.login-box .input-box button {
+  background-color: rgba(255, 0, 0, 0.707);
+  padding: 11px 25px 16px 25px;
+  margin-left: 10px;
+  font-size: 25px;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: white;
+}
+
+/*# sourceMappingURL=login.css.map */

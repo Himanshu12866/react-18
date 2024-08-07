@@ -1,0 +1,33 @@
+.login-box{
+    h5{
+        color: white;
+        // letter-spacing: .px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .input-box{
+        margin-top: 20px;
+        input{
+            background-color:rgba(0,0,0,.6) ;
+            padding: 20px;
+            width: 350px;
+            border: none;
+            border-radius: 4px;
+            color: white;
+        }
+        button{
+            background-color: rgba(255, 0, 0, 0.707);
+            padding: 11px 25px 16px 25px;
+            margin-left: 10px;
+            font-size: 25px;
+            color: white;
+            border-radius: 4px;
+            border: none;
+            font-weight: bold;
+        }
+    }
+}
+::placeholder{
+    color:white;
+}
