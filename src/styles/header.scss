@@ -1,0 +1,12 @@
+.headerBox{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   
+   .img-box{
+    width: 300px;
+    background-color: red;
+    height: 30px;
+   }
+
+}
