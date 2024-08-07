@@ -1,10 +1,23 @@
-.homepage{
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%) , url("../../public/images/back.jpg");
+.homepage {
+  background-image: linear-gradient(to top, rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.896)), url("../../public/images/back.jpg");
   background-position: center;
   background-size: cover;
   top: 0;
   left: 0;
-    width: 100%;
-    height: 120vh;
-    overflow: hidden;
+  text-align: center;
+  width: 100%;
+  height: 120vh;
+  overflow: hidden;
+
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h4 {
+    color: white;
+  }
 }

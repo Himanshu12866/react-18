@@ -3,14 +3,42 @@
     justify-content: space-between;
     width: 100%;
     padding: 10px;
-  
+
 
     .img-box {
-        width:225px;
-        height:60px;
+        width: 225px;
+        height: 60px;
         margin-top: 30px;
         margin-left: 100px;
         background-image: url("../../public/images/netflixlogo.png");
+    }
+
+    .dropdownBox {
+      
+        margin-top: 30px;
+        margin-right: 150px;
+        .dropbox {
+         width: 250px;
+        height: 35px;
+         display: flex;
+         button{
+            width: 80px;
+            margin-left: 20px;
+            background-color: red;
+            color: white;
+            padding: -15px;
+        }
+            .form-select {
+                background-color: transparent !important;
+                color: white !important;
+                width: 100px;
+
+                option {
+                    color: black !important;
+                }
+            
+            }
+        }
     }
 
 }

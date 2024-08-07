@@ -11,5 +11,29 @@
   margin-left: 100px;
   background-image: url("../../public/images/netflixlogo.png");
 }
+.headerBox .dropdownBox {
+  margin-top: 30px;
+  margin-right: 150px;
+}
+.headerBox .dropdownBox .dropbox {
+  width: 250px;
+  height: 35px;
+  display: flex;
+}
+.headerBox .dropdownBox .dropbox button {
+  width: 80px;
+  margin-left: 20px;
+  background-color: red;
+  color: white;
+  padding: -15px;
+}
+.headerBox .dropdownBox .dropbox .form-select {
+  background-color: transparent !important;
+  color: white !important;
+  width: 100px;
+}
+.headerBox .dropdownBox .dropbox .form-select option {
+  color: black !important;
+}
 
 /*# sourceMappingURL=header.css.map */

@@ -6,14 +6,14 @@ export default function Header() {
             <div className="img-box">
               
             </div>
-            <div>
+            <div className="dropdownBox">
                 <div className="dropbox">
                     <select className="form-select">
-                        <option><i className="bi bi-list bg-dark"></i>English</option>
+                        <option><i className="fa fa-facebook"></i>English</option>
                         <option>Hindi</option>
                     </select>
+               <button type="button" className="btn ">Sign In</button>
                 </div>
-                <div></div>
             </div>
         </div>
     )
