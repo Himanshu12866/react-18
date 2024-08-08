@@ -6,6 +6,7 @@ import MainBox from './components/main1';
 import MainBox2 from './components/main2';
 import MainBox3 from './components/main3';
 import MainBox4 from './components/main4';
+import MainBox5 from './components/main5';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <MainBox2 />
    <MainBox3 />
    <MainBox4 />
+   <MainBox5 />
    </div>
    
   );
