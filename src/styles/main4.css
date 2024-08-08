@@ -1,9 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prata&display=swap");
 .main-box-4 {
   background-color: black;
   height: 500px;
   width: 100%;
   overflow: hidden;
   border-bottom: 8px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.main-box-4 .row {
+  width: 90%;
+  height: 500px;
+  padding: 20px;
+}
+.main-box-4 .row .col-lg-6 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box-4 .row .col-lg-6 img {
+  width: 100%;
+}
+.main-box-4 .row .col-lg-6 .TextBox h1 {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+.main-box-4 .row .col-lg-6 .TextBox p {
+  font-size: 25px;
+  text-align: left;
 }
 
 /*# sourceMappingURL=main4.css.map */
