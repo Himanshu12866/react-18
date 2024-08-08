@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prata&display=swap');
 
-.main-box-4{
+.main-box-4 {
     background-color: black;
     height: 500px;
     width: 100%;
@@ -10,9 +10,9 @@
     justify-content: center;
     align-items: center;
     color: white;
-    .row{
+
+    .row {
         width: 90%;
-        // background-color: red;
         height: 500px;
         padding: 20px;
         .col-lg-6 {
@@ -20,23 +20,20 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
-          img{
-            width: 100%;
-          }
-          .TextBox{
-            h1{
-                font-family: "Archivo Black", sans-serif;
-                font-size: 50px;
-                font-weight: 600;
-    
-              }
-              p{
-                font-size: 25px;
-                text-align: left;
-              }
-          }
+            img {
+                width: 100%;
+            }
+            .TextBox {
+                h1 {
+                    font-family: "Archivo Black", sans-serif;
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+                p {
+                    font-size: 25px;
+                    text-align: left;
+                }
+            }
         }
     }
-
 }
