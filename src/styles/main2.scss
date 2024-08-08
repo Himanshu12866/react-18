@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prata&display=swap');
 .main-box2 {
     background-color: black;
     height: 500px;
@@ -15,8 +16,13 @@
             display: flex;
             padding: 10px;
             color: white;
+            font-weight: bold;
             justify-content: center;
             align-items: center;
+            h1{
+                font-weight: bold;
+                font-family: "Archivo Black", sans-serif;
+            }
             .img-box{
                 width:400px;
                 height:500px;
@@ -27,6 +33,7 @@
                 background-color: red;
                 text-align: center;
                 display: flex;
+                margin: 20px;
                 justify-content: center;
                 align-items: center;
                 .ImgBox{
@@ -35,7 +42,7 @@
                     width: 330px;
                     height: 100px;
                     border-radius: 20px;
-                    border: 1px solid grey;
+                    border: 1px solid rgb(255, 10, 10);
                     background-color: black; 
                     
                 }
