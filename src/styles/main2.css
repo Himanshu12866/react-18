@@ -1,0 +1,44 @@
+.main-box2 {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 8px solid grey;
+}
+.main-box2 .row {
+  width: 100%;
+}
+.main-box2 .row .col-lg-6 {
+  width: 50%;
+  text-align: left;
+  height: 500px;
+  display: flex;
+  padding: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.main-box2 .row .col-lg-6 .img-box {
+  width: 400px;
+  height: 500px;
+  position: relative;
+  background-image: url("../../public/images/mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box2 .row .col-lg-6 .img-box .ImgBox {
+  position: absolute;
+  top: 75%;
+  width: 330px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  background-color: black;
+}
+
+/*# sourceMappingURL=main2.css.map */

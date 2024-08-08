@@ -13,7 +13,7 @@ export default function MainBox() {
                 </div>
                 <div className="col-lg-6 col-sm-12">
                     <div className="imgbox">
-                        <video  autoPlay muted loop>
+                        <video autoPlay muted loop>
                             <source src="images/vdo.m4v" ></source>
                         </video>
                     </div>

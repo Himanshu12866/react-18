@@ -1,0 +1,45 @@
+.main-box2 {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 8px solid grey;
+
+    .row {
+        width: 100%;
+
+        .col-lg-6 {
+            width: 50%;
+            text-align: left;
+            height: 500px;
+            display: flex;
+            padding: 10px;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            .img-box{
+                width:400px;
+                height:500px;
+                position: relative;
+                background-image: url("../../public/images/mobile.jpg");
+                background-position: center;
+                background-size: cover;
+                background-color: red;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .ImgBox{
+                    position: absolute;
+                    top:75%;
+                    width: 330px;
+                    height: 100px;
+                    border-radius: 20px;
+                    border: 1px solid grey;
+                    background-color: black; 
+                    
+                }
+            }
+        }
+    }
+}
