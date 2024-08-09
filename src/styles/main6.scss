@@ -1,3 +1,19 @@
-div{
-    background-color: red;
+.main-box-6{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    .row{
+        width: 75%;
+        margin-top: 15px;
+        // padding: 10px;
+        p{
+            color: rgba(255, 255, 255, 0.649);
+            a{
+                color: rgba(255, 255, 255, 0.649);
+            }
+            
+        }
+    }
 }

@@ -1,5 +1,19 @@
-div {
-  background-color: red;
+.main-box-6 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+}
+.main-box-6 .row {
+  width: 75%;
+  margin-top: 15px;
+}
+.main-box-6 .row p {
+  color: rgba(255, 255, 255, 0.649);
+}
+.main-box-6 .row p a {
+  color: rgba(255, 255, 255, 0.649);
 }
 
 /*# sourceMappingURL=main6.css.map */
