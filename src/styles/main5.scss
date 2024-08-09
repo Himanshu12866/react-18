@@ -1,52 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prata&display=swap');
-
+// @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prata&display=swap');
+// @import url('https://assets.nflxext.com/ffe/siteui/fonts/graphik/v2/GraphikTH-Bold.woff2) format("woff2"),url(https://assets.nflxext.com/ffe/siteui/fonts/graphik/v2/GraphikTH-Bold.woff');
 .main-box-5 {
     background-color: rgb(0, 0, 0);
     width: 100%;
     height: auto;
-    border-bottom: 8px solid grey;
+    border-bottom: 8px solid rgb(53, 37, 37);
     display: flex;
     justify-content: center;
     align-items: center;
 
    .main-box-5__inner{
-    width: 70%;
+    width: 75%;
+    margin-top: 100px;
     h1{
         font-family: 'Archivo Black', sans-serif;
         font-size: 55px;
         color: white;
         text-align: center;
     }
-
      .accordion {
-       
-        background-color: rgba(0, 0, 0, 0.811) !important;
-        margin-top: 60px;
-
+        margin-top: 30px;
         .accordion-item {
-            // background-color: rgba(0, 0, 0, 0.611) !important;
             color: white !important;
             margin: 10px 0 10px 0;
             border:  none !important;
-
             .accordion-header {
-               
-
                 button {
                     background-color: rgba(45,45,45,1) !important;
                     color: white !important;
                     font-size: 25px;
-                    padding: 25px !important;
-                    
-                }
+                    padding: 25px !important;            
+                }            
             }
-            .collapse {
-                
+            .collapse {               
                 .accordion-body{
                     p{
-                        text-align: left;
-                        // background-color: red !important;
-                        
+                        text-align: left;                        
                     }
                 }
             }
