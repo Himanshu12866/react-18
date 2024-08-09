@@ -10,6 +10,8 @@
 .main-box-5 .main-box-5__inner {
   width: 75%;
   margin-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 .main-box-5 .main-box-5__inner h1 {
   font-family: "Archivo Black", sans-serif;
@@ -32,7 +34,7 @@
   padding: 25px !important;
 }
 .main-box-5 .main-box-5__inner .accordion .accordion-item .collapse .accordion-body p {
-  text-align: left;
+  text-align: left !important;
 }
 
 /*# sourceMappingURL=main5.css.map */

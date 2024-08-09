@@ -12,6 +12,8 @@
    .main-box-5__inner{
     width: 75%;
     margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
     h1{
         font-family: 'Archivo Black', sans-serif;
         font-size: 55px;
@@ -36,7 +38,7 @@
             .collapse {               
                 .accordion-body{
                     p{
-                        text-align: left;                        
+                        text-align: left !important;                        
                     }
                 }
             }
