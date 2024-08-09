@@ -6,7 +6,7 @@
   height: 380px;
 }
 .main-box-6 .row {
-  width: 75%;
+  width: 80%;
   margin-top: 15px;
 }
 .main-box-6 .row p {
@@ -14,6 +14,40 @@
 }
 .main-box-6 .row p a {
   color: rgba(255, 255, 255, 0.649);
+}
+.main-box-6 .row .col-lg-6 {
+  padding: 10px;
+  text-align: left;
+}
+.main-box-6 .row .col-lg-6 .row .col-6 {
+  padding-left: 30px;
+}
+.main-box-6 .row .col-lg-6 .row .col-6 p {
+  color: rgba(255, 255, 255, 0.649);
+  font-size: 14px;
+}
+.main-box-6 .row .col-lg-6 .row .col-6 p select {
+  padding: 5px 10px 5px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+}
+.main-box-6 .row .col-lg-6 .row .col-6 p select option {
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .main-box-6 {
+    height: auto;
+  }
+  .main-box-6 .row {
+    width: 90%;
+    margin-top: 20px;
+    padding-bottom: 50px;
+  }
+  .main-box-6 .row .row:nth-child(1) {
+    margin-bottom: -50px;
+  }
 }
 
 /*# sourceMappingURL=main6.css.map */

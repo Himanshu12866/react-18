@@ -5,15 +5,53 @@
     align-items: center;
     height: 380px;
     .row{
-        width: 75%;
+        width: 80%;
         margin-top: 15px;
         // padding: 10px;
+      
         p{
             color: rgba(255, 255, 255, 0.649);
+            // margin-left: 30px;
+
             a{
                 color: rgba(255, 255, 255, 0.649);
             }
-            
+
+        }
+        .col-lg-6{
+            padding: 10px;
+            text-align: left;
+            .row{
+                .col-6{
+                    padding-left: 30px;
+                    p{
+                        color: rgba(255, 255, 255, 0.649);
+                        font-size: 14px;
+                        select{
+                            padding: 5px 10px 5px 10px;
+                            background-color: black;
+                            color: white;
+                            border-radius: 2px;
+                            option{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:500px){
+    .main-box-6{
+        height: auto;
+        .row{
+            width: 90%;
+            margin-top: 20px;
+            padding-bottom: 50px;
+            .row:nth-child(1){
+                margin-bottom: -50px;
+            }
         }
     }
 }
