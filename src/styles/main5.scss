@@ -24,25 +24,28 @@
         margin-top: 60px;
 
         .accordion-item {
-            background-color: rgba(0, 0, 0, 0.611) !important;
+            // background-color: rgba(0, 0, 0, 0.611) !important;
             color: white !important;
             margin: 10px 0 10px 0;
             border:  none !important;
 
             .accordion-header {
-                background-color: rgba(0, 0, 0, 0.216) !important;
+               
 
                 button {
-                    background-color: rgba(0, 0, 0, 0.548) !important;
+                    background-color: rgba(45,45,45,1) !important;
                     color: white !important;
                     font-size: 25px;
+                    padding: 25px !important;
                     
                 }
             }
             .collapse {
+                
                 .accordion-body{
                     p{
                         text-align: left;
+                        // background-color: red !important;
                         
                     }
                 }

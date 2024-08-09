@@ -22,18 +22,15 @@
   margin-top: 60px;
 }
 .main-box-5 .main-box-5__inner .accordion .accordion-item {
-  background-color: rgba(0, 0, 0, 0.611) !important;
   color: white !important;
   margin: 10px 0 10px 0;
   border: none !important;
 }
-.main-box-5 .main-box-5__inner .accordion .accordion-item .accordion-header {
-  background-color: rgba(0, 0, 0, 0.216) !important;
-}
 .main-box-5 .main-box-5__inner .accordion .accordion-item .accordion-header button {
-  background-color: rgba(0, 0, 0, 0.548) !important;
+  background-color: rgb(45, 45, 45) !important;
   color: white !important;
   font-size: 25px;
+  padding: 25px !important;
 }
 .main-box-5 .main-box-5__inner .accordion .accordion-item .collapse .accordion-body p {
   text-align: left;
