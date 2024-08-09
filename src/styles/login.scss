@@ -31,3 +31,22 @@
 ::placeholder{
     color:white;
 }
+@media(max-width:500px){
+    .login-box{
+        h5{
+            font-size: 20px;
+        }
+        .input-box{
+            input{
+                width: 280px;
+                font-size: 15px;
+                padding: 15px;
+            }
+            button{
+                margin-top: 20px;
+                padding: 10px;
+                font-size: 20px;
+            }
+        }
+    }
+}
