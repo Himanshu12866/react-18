@@ -11,7 +11,7 @@
         width: 100%;
 
         .col-lg-6 {
-            width: 50%;
+            // width: 50%;
             text-align: center;
             height: 500px;
             display: flex;
@@ -55,6 +55,35 @@
                 }
             }
 
+        }
+    }
+}
+@media(max-width:500px){
+    .main-box{
+        height: auto;
+        .row{
+            width: 100%;
+            .col-lg-6{
+                width: 100%;
+                height: auto;
+                padding: 0;
+                
+                div{
+                    width: 100%;
+                    // text-align: center;
+                h1{
+                    font-size: 29px;
+                    padding-left: 50px;
+                }
+                h3{
+                    font-size: 18px;
+                    font-weight: unset;
+                    display: inline-block;
+                    // width: 300px;
+                    text-align: center;
+                    padding-left: 50px;
+                }
+            }}
         }
     }
 }
