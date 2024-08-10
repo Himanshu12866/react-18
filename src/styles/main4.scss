@@ -5,7 +5,7 @@
     height: 500px;
     width: 100%;
     overflow: hidden;
-    border-bottom: 8px solid rgb(45,45,45);
+    border-bottom: 8px solid rgb(45, 45, 45);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,23 +15,55 @@
         width: 90%;
         height: 500px;
         padding: 20px;
+
         .col-lg-6 {
             padding: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
+
             img {
                 width: 100%;
             }
+
             .TextBox {
                 h1 {
                     font-family: "Archivo Black", sans-serif;
                     font-size: 50px;
                     font-weight: 600;
                 }
+
                 p {
                     font-size: 25px;
                     text-align: left;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .main-box-4 {
+        height: 80vh;
+
+        .row {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            padding: 10px;
+            flex-direction: column-reverse !important;
+
+            .col-lg-6 {
+                .TextBox {
+                    h1 {
+                        font-size: 30px;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        text-align: center;
+                    }
                 }
             }
         }

@@ -34,4 +34,25 @@
   text-align: left;
 }
 
+@media (max-width: 500px) {
+  .main-box-4 {
+    height: 80vh;
+  }
+  .main-box-4 .row {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column-reverse !important;
+  }
+  .main-box-4 .row .col-lg-6 .TextBox h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .main-box-4 .row .col-lg-6 .TextBox p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=main4.css.map */
