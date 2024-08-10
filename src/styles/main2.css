@@ -4,13 +4,12 @@
   height: 550px;
   width: 100%;
   overflow: hidden;
-  border-bottom: 8px solid rgb(45,45,45);
+  border-bottom: 8px solid rgb(45, 45, 45);
 }
 .main-box2 .row {
   width: 100%;
 }
 .main-box2 .row .col-lg-6 {
-  width: 50%;
   text-align: left;
   height: 500px;
   display: flex;
@@ -22,7 +21,6 @@
 }
 .main-box2 .row .col-lg-6 h1 {
   font-weight: bold;
-  font-family: "Archivo Black", sans-serif;
 }
 .main-box2 .row .col-lg-6 .img-box {
   width: 400px;
@@ -31,12 +29,15 @@
   background-image: url("../../public/images/mobile.jpg");
   background-position: center;
   background-size: cover;
-  background-color: red;
   text-align: center;
   display: flex;
   margin: 20px;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px;
+}
+.main-box2 .row .col-lg-6 .img-box .None {
+  display: none;
 }
 .main-box2 .row .col-lg-6 .img-box .ImgBox {
   position: absolute;
@@ -80,6 +81,64 @@
 .main-box2 .row .col-lg-6 .img-box .ImgBox .row .col-2 img {
   width: 150px;
   height: 50px;
+}
+
+@media (max-width: 500px) {
+  .main-box2 {
+    height: auto;
+    width: 100%;
+  }
+  .main-box2 .row {
+    flex-direction: column-reverse;
+    width: 100%;
+    text-align: center;
+  }
+  .main-box2 .row .col-lg-6 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 18px;
+  }
+  .main-box2 .row .col-lg-6 h1 {
+    font-size: 25px;
+  }
+  .main-box2 .row .col-lg-6 h3 {
+    font-weight: unset !important;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .main-box2 .row .col-lg-6 .img-box {
+    width: 100%;
+    margin: 0;
+    background-image: none;
+    text-align: center;
+    padding: 0;
+    margin-top: -120px;
+  }
+  .main-box2 .row .col-lg-6 .img-box .None {
+    display: block;
+    width: 100%;
+  }
+  .main-box2 .row .col-lg-6 .img-box .ImgBox {
+    width: 300px;
+    height: 100px;
+  }
+  .main-box2 .row .col-lg-6 .img-box .ImgBox .row {
+    flex-direction: row;
+  }
+  .main-box2 .row .col-lg-6 .img-box .ImgBox .row .col-4 {
+    width: 80px;
+  }
+  .main-box2 .row .col-lg-6 .img-box .ImgBox .row .col-4 img {
+    width: 100%;
+  }
+  .main-box2 .row .col-lg-6 .img-box .ImgBox .row .col-6 p {
+    font-size: 14px;
+  }
+  .main-box2 .row .col-lg-6 .img-box .ImgBox .row .col-6 span {
+    font-size: 12px;
+  }
 }
 
 /*# sourceMappingURL=main2.css.map */

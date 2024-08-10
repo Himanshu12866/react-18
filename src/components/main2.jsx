@@ -6,9 +6,10 @@ export default function MainBox2() {
             <div className="row">
                 <div className="col-lg-6 col-sm-12">
                     <div className="img-box">
+                    <img alt="name" className="None" src="images/mobile.jpg"></img>
                         <div className="ImgBox">
                             <div className="row">
-                                <div className="col-4">
+                                <div className="col-4 ">
                                     <img alt="things" src="images/things.png" />
                                 </div>
                                 <div className="col-6">
@@ -16,7 +17,7 @@ export default function MainBox2() {
                                     <span>Downloading...</span>
                                 </div>
                                 <div className="col-2">
-                                    <img alt="gif" src="images/gif.gif"/>
+                                    <img alt="gif" src="images/gif2.gif"/>
                                 </div>
 
                             </div>

@@ -11,7 +11,7 @@
         width: 100%;
 
         .col-lg-6 {
-            width: 50%;
+            // width: 50%;
             text-align: left;
             height: 500px;
             display: flex;
@@ -23,7 +23,7 @@
 
             h1 {
                 font-weight: bold;
-                font-family: "Archivo Black", sans-serif;
+                // font-family: "Archivo Black", sans-serif;
             }
 
             .img-box {
@@ -33,12 +33,16 @@
                 background-image: url("../../public/images/mobile.jpg");
                 background-position: center;
                 background-size: cover;
-                background-color: red;
+                // background-color: red;
                 text-align: center;
                 display: flex;
                 margin: 20px;
                 justify-content: center;
                 align-items: center;
+                border-bottom: 2px ;
+                .None{
+                    display: none;
+                }
 
                 .ImgBox {
                     position: absolute;
@@ -92,4 +96,75 @@
             }
         }
     }
+}
+@media(max-width:500px)  {
+    .main-box2{
+        height: auto;
+        width: 100%;
+
+        .row{
+            flex-direction: column-reverse;
+            width: 100%;
+            text-align: center;
+            // padding: 10px;
+            .col-lg-6{
+                width: 100%;
+                height: auto;
+                text-align: center;
+                margin-top: 50px;
+                margin-left: 18px;
+                
+                h1{
+                    font-size: 25px;
+                }
+                h3{
+                    font-weight: unset !important;
+                    font-size: 15px;
+                    margin-top: 10px;
+                }
+                .img-box{
+                    width: 100%;
+                    margin: 0;
+                    // height: 600px;
+                    background-image: none;
+                    text-align: center;
+                    padding: 0;
+                    margin-top: -120px;
+                    // margin-left: 25px;
+                    .None{
+                        display: block;
+                        width: 100%;
+                    }
+                    .ImgBox{
+                        width: 300px;
+                        height: 100px;
+                        // padding: 10px;
+                        .row{
+                           flex-direction:row;
+                           .col-4{
+                            // padding: 20px;
+                            width: 80px;
+                            img{
+                                width: 100%;
+
+                            }
+                           
+                            }
+                            .col-6{
+                                p{
+                                    font-size: 14px;
+                                }
+                                span{
+                                    font-size: 12px;
+                                }
+                           }
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    
 }
