@@ -1,45 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prata&display=swap");
 .headerBox {
-  display: flex !important;
-  justify-content: space-between !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding: 10px;
 }
-.headerBox .img-box {
-  width: 225px;
-  height: 60px;
+.headerBox .rowi {
   margin-top: 30px;
-  margin-left: 100px;
-  background-image: url("../../public/images/netflixlogo.png");
-}
-.headerBox .dropdownBox {
-  margin-top: 30px;
-  margin-right: 150px;
-}
-.headerBox .dropdownBox .dropbox {
-  width: 250px;
-  height: 35px;
+  width: 80%;
   display: flex;
+  justify-content: space-between;
 }
-.headerBox .dropdownBox .dropbox button {
-  width: 80px;
-  margin-left: 20px;
-  background-color: red;
+.headerBox .rowi .divi span {
+  position: absolute;
+  transform: translateX(10px) translateY(4px);
+}
+.headerBox .rowi .divi select {
+  background-color: transparent;
+  padding: 5px 15px 5px 30px;
   color: white;
-  padding: -12px;
+  border-radius: 4px;
+  font-size: 15px;
 }
-.headerBox .dropdownBox .dropbox .form-select {
-  background-color: transparent !important;
-  color: white !important;
-  width: 100px;
+.headerBox .rowi .divi select option {
+  color: black;
 }
-.headerBox .dropdownBox .dropbox .form-select option {
-  color: black !important;
+.headerBox .rowi .divi .btnn {
+  background-color: red;
+  margin-left: 18px;
+  padding: 4px 15px 4px 15px;
+  border-radius: 2px;
+  color: white;
+  border: none;
 }
 
 @media (max-width: 500px) {
-  .headerBox .img-box {
-    width: 300px;
+  .headerBox {
+    flex-direction: row;
+  }
+  .headerBox .rowi {
+    width: 100%;
+  }
+  .headerBox .rowi .divi img {
+    width: 100px;
+  }
+  .headerBox .rowi .divi select {
+    width: 40px;
+  }
+  .headerBox .rowi .divi select option {
+    text-align: left;
+    width: 40px;
   }
 }
 

@@ -1,53 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prata&display=swap');
 
 .headerBox {
-    display: flex !important;
-    justify-content: space-between !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding: 10px;
 
-    .img-box {
-        width: 225px;
-        height: 60px;
-        margin-top: 30px;
-        margin-left: 100px;
-        background-image: url("../../public/images/netflixlogo.png");
-    }
 
-    .dropdownBox {
-      
+    .rowi {
         margin-top: 30px;
-        margin-right: 150px;
-        .dropbox {
-         width: 250px;
-        height: 35px;
-         display: flex;
-         button{
-            width: 80px;
-            margin-left: 20px;
-            background-color: red;
-            color: white;
-            padding: -12px;
-        }
-            .form-select {
-                background-color: transparent !important;
-                color: white !important;
-                width: 100px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+        .divi {
+            span {
+                position: absolute;
+                transform: translateX(10px) translateY(4px);
+
+            }
+
+            select {
+                background-color: transparent;
+                padding: 5px 15px 5px 30px;
+                color: white;
+                border-radius: 4px;
+                font-size: 15px;
 
                 option {
-                    color: black !important;
+                    color: black;
+
                 }
-            
+            }
+
+            .btnn {
+                background-color: red;
+                margin-left: 18px;
+                padding: 4px 15px 4px 15px;
+                border-radius: 2px;
+                color: white;
+                // font-weight: bold;
+
+                border: none;
             }
         }
     }
 
 }
-@media(max-width:500px){
+
+@media(max-width:500px) {
     .headerBox {
-        .img-box{
-            width: 300px;
+        flex-direction: row;
+
+        .rowi {
+            width: 100%;
+
+            .divi {
+           
+
+                img {
+                    width: 100px;
+                }
+
+                select {
+                    width: 40px;
+
+                    option {
+                        text-align: left;
+                        width: 40px;
+                    }
+                }
+            }
         }
-    
     }
 }

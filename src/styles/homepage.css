@@ -24,7 +24,8 @@
 
 @media (max-width: 500px) {
   .homepage {
-    height: 72vh;
+    height: 75vh;
+    padding-bottom: 50px;
     padding: 15px;
   }
   .homepage h1 {
