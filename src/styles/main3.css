@@ -16,7 +16,6 @@
   color: white;
 }
 .main-box-3 .row .col-lg-6 h1 {
-  font-family: "Archivo Black", sans-serif;
   font-size: 50px;
   margin-top: 100px;
 }
@@ -37,6 +36,40 @@
   background-image: url("../../public/images//tv2.png");
   background-position: center;
   background-size: cover;
+}
+.main-box-3 .row .col-lg-6 .ImgBox .overlay-image img {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .main-box-3 {
+    height: 80vh;
+  }
+  .main-box-3 .row {
+    width: 100%;
+  }
+  .main-box-3 .row .col-lg-6 {
+    text-align: center;
+  }
+  .main-box-3 .row .col-lg-6 h1 {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .main-box-3 .row .col-lg-6 .ImgBox video {
+    width: 225px;
+    margin-top: -100px;
+  }
+  .main-box-3 .row .col-lg-6 .ImgBox .overlay-image {
+    margin: 0 100px 100px 100px;
+    padding: 15px;
+    width: 400px;
+    height: 400px;
+    background-image: none;
+  }
+  .main-box-3 .row .col-lg-6 .ImgBox .overlay-image img {
+    width: 100%;
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=main3.css.map */
