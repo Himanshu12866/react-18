@@ -11,7 +11,7 @@ import MainBox6 from './components/mian6';
 
 function App() {
   return (
-   <div>
+   <div className='PitaJi'>
     <HomePage />
     <MainBox />
     <MainBox2 />

@@ -4,7 +4,7 @@
   height: 500px;
   width: 100%;
   overflow: hidden;
-  border-bottom: 8px rgb(45, 45, 45);
+  border-bottom: 8px solid rgb(45, 45, 45);
 }
 .main-box .row {
   width: 100%;
@@ -70,9 +70,19 @@
   .main-box .row .col-lg-6 div h3 {
     font-size: 18px;
     font-weight: unset;
-    display: inline-block;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 40px;
+  }
+  .main-box .row .col-lg-6 .imgbox {
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .main-box .row .col-lg-6 .imgbox video {
+    width: 289px;
+    height: 280px;
+    margin: -5px;
   }
 }
 

@@ -37,4 +37,10 @@
   color: black !important;
 }
 
+@media (max-width: 500px) {
+  .headerBox .img-box {
+    width: 300px;
+  }
+}
+
 /*# sourceMappingURL=header.css.map */

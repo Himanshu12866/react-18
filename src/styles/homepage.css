@@ -9,7 +9,7 @@
   width: 100%;
   height: 120vh;
   overflow: hidden;
-  border-bottom: 8px solid rgb(45,45,45);
+  border-bottom: 8px solid rgb(45, 45, 45);
 }
 .homepage h1 {
   color: white;
@@ -20,6 +20,18 @@
 }
 .homepage h4 {
   color: white;
+}
+
+@media (max-width: 500px) {
+  .homepage {
+    height: 72vh;
+    padding: 15px;
+  }
+  .homepage h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 1.5em;
+  }
 }
 
 /*# sourceMappingURL=homepage.css.map */

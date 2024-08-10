@@ -24,16 +24,6 @@ export default function Header() {
                         <option>English</option>
                         <option> हिन्दी</option>
                     </select>
-{/* 
-                    <ul className="text-light list-unstyled">
-                        <li onClick={handleDisplay}>
-                            English
-                        <ul className={`d-${style}`}>
-                            <li>English</li>
-                            <li>हिन्दी</li>
-                        </ul>
-                        </li>
-                    </ul> */}
                <button type="button" className="btn "> Sign In</button>
                 </div>
             </div>

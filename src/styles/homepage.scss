@@ -23,3 +23,15 @@
     color: white;
   }
 }
+@media(max-width:500px){
+  .homepage{
+    height: 72vh;
+    padding: 15px;
+    h1{
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 1.5em;
+    }
+
+  }
+}
