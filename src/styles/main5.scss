@@ -9,40 +9,87 @@
     justify-content: center;
     align-items: center;
 
-   .main-box-5__inner{
-    width: 75%;
-    margin-top: 100px;
-    text-align: center;
-    padding-bottom: 50px;
-    h1{
-        font-family: 'Archivo Black', sans-serif;
-        font-size: 55px;
-        color: white;
+    .main-box-5__inner {
+        width: 75%;
+        margin-top: 100px;
         text-align: center;
-    }
-     .accordion {
-        margin-top: 30px;
-        .accordion-item {
-            
-            color: white !important;
-            margin: 10px 0 10px 0;
-            border:  none !important;
-            .accordion-header {
-                button {
-                    background-color: rgba(45,45,45,1) !important;
-                    color: white !important;
-                    font-size: 25px;
-                    padding: 25px !important;            
-                }            
-            }
-            .collapse {               
-                .accordion-body{
-                    p{
-                        text-align: left !important;                        
+
+        padding-bottom: 50px;
+
+        h1 {
+            font-family: 'Archivo Black', sans-serif;
+            font-size: 55px;
+            color: white;
+            text-align: center;
+        }
+
+        .accordion {
+            margin-top: 30px;
+
+            .accordion-item {
+
+                color: white !important;
+                margin: 10px 0 10px 0;
+                border: none !important;
+
+                .accordion-header {
+                    button {
+                        background-color: rgba(45, 45, 45, 1) !important;
+                        color: white !important;
+                        font-size: 25px;
+                        padding: 25px !important;
+                    }
+                }
+
+                .collapse {
+                    .accordion-body {
+                        p {
+                            text-align: left !important;
+                        }
                     }
                 }
             }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .main-box-5 {
+        .main-box-5__inner {
+            width: 82%;
+
+            h1 {
+                font-size: 30px;
             }
+
+            .accordion {
+                margin-top: 30px;
+
+                .accordion-item {
+
+                    color: white !important;
+                    margin: 10px 0 10px 0;
+                    border: none !important;
+
+                    .accordion-header {
+                        button {
+                            background-color: rgba(45, 45, 45, 1) !important;
+                            color: white !important;
+                            font-size: 20px;
+                            padding: 25px !important;
+                        }
+                    }
+
+                    .collapse {
+                        .accordion-body {
+                            p {
+                                text-align: left !important;
+                            }
+                        }
+                    }
+                }
+            }
+
         }
     }
 }

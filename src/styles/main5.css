@@ -37,4 +37,30 @@
   text-align: left !important;
 }
 
+@media (max-width: 500px) {
+  .main-box-5 .main-box-5__inner {
+    width: 82%;
+  }
+  .main-box-5 .main-box-5__inner h1 {
+    font-size: 30px;
+  }
+  .main-box-5 .main-box-5__inner .accordion {
+    margin-top: 30px;
+  }
+  .main-box-5 .main-box-5__inner .accordion .accordion-item {
+    color: white !important;
+    margin: 10px 0 10px 0;
+    border: none !important;
+  }
+  .main-box-5 .main-box-5__inner .accordion .accordion-item .accordion-header button {
+    background-color: rgb(45, 45, 45) !important;
+    color: white !important;
+    font-size: 20px;
+    padding: 25px !important;
+  }
+  .main-box-5 .main-box-5__inner .accordion .accordion-item .collapse .accordion-body p {
+    text-align: left !important;
+  }
+}
+
 /*# sourceMappingURL=main5.css.map */
