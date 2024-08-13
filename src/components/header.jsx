@@ -9,7 +9,6 @@ export default function Header() {
                 <div className="divi">
                     <img alt="anem" className="None" src="images/netflixlogo.png"></img>
                 </div>
-                
                 <div className="divi">
                 <span className="bi bi-translate text-light"></span>
                     <select>
