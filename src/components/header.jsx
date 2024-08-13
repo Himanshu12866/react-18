@@ -1,17 +1,7 @@
-// import { useState } from "react";
+
 import "../styles/header.css";
 
 export default function Header() {
-
-//     const [style, setStyle] = useState("none")
-
-//     function handleDisplay(){
-//     if(style === "none"){
-//         setStyle("block");
-//     }else{
-//         setStyle("none");
-//     }
-//     }
 
     return (
         <div className="headerBox">
