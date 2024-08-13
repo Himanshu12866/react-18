@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Himanshu12866/react-18/static/css/main.5a98f41d.css",
+    "main.js": "/Himanshu12866/react-18/static/js/main.e3c73236.js",
+    "static/js/453.577ed3dd.chunk.js": "/Himanshu12866/react-18/static/js/453.577ed3dd.chunk.js",
+    "static/media/back.jpg": "/Himanshu12866/react-18/static/media/back.2321d585c17aa38af097.jpg",
+    "static/media/bootstrap-icons.woff?": "/Himanshu12866/react-18/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/tv2.png": "/Himanshu12866/react-18/static/media/tv2.ff81d825b399d890f9b4.png",
+    "static/media/bootstrap-icons.woff2?": "/Himanshu12866/react-18/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/mobile.jpg": "/Himanshu12866/react-18/static/media/mobile.063578d5b6d5ab4155ec.jpg",
+    "static/media/tv-image.png": "/Himanshu12866/react-18/static/media/tv-image.0049bc70babc1f94cf88.png",
+    "index.html": "/Himanshu12866/react-18/index.html",
+    "main.5a98f41d.css.map": "/Himanshu12866/react-18/static/css/main.5a98f41d.css.map",
+    "main.e3c73236.js.map": "/Himanshu12866/react-18/static/js/main.e3c73236.js.map",
+    "453.577ed3dd.chunk.js.map": "/Himanshu12866/react-18/static/js/453.577ed3dd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a98f41d.css",
+    "static/js/main.e3c73236.js"
+  ]
+}
