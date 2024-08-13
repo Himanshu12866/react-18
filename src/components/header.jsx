@@ -6,6 +6,7 @@ export default function Header() {
     return (
         <div className="headerBox">
             <div className="rowi">
+            
                 <div className="divi">
                     <img alt="anem" className="None" src="images/netflixlogo.png"></img>
                 </div>
